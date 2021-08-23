@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffeaea;
+    font-family: 'Merienda', cursive;
+}
+#nav-bar{
+    display: flex;
+    background-image: linear-gradient(to bottom, #c499f4, #84baff, #00d7ff, #00eeff, #00ffed);
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+}
+#content-books{
+    background-image: linear-gradient(to bottom, #00f4ff, #2cf9ea, #5afdd1, #84ffb5, #acff9a);
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#content-books>img{
+    width: 100px;
+}
+#content-museums{
+    width: 100%;
+    background-image: linear-gradient(to bottom, #acff9a, #bffe8e, #d2fd82, #e6fb79, #f9f871);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#nav-text{
+    cursor: pointer;
+}
+#content-museums>p{
+    margin-left: 700px;
+    margin-right: 700px;
+}
+#content-appreciation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #f9f871, #ffde66, #ffc465, #ffac69, #ff9671);
+}
+#content-appreciation>p{
+    margin-left: 700px;
+    margin-right: 700px;
+}
+#content-challenge{
+    width: 100%;
+    background-image: linear-gradient(to bottom, #ff9671, #ff7f56, #ff653c, #ff4522, #ff0000);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#content-challenge>p{
+    margin-left: 700px;
+    margin-right: 700px;
+}
+#content-experiences{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #c499f4, #84baff, #00d7ff, #00eeff, #00ffed, #2cf9ea, #5afdd1, #84ffb5, #acff9a, #bffe8e, #d2fd82, #e6fb79, #f9f871, #ffde66, #ffc465, #ffac69, #ff9671, #ff7f56, #ff653c, #ff4522, #ff0000 );
+}
+#content-experiences>p{
+    margin-left: 700px;
+    margin-right: 700px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
